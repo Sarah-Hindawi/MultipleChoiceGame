@@ -242,6 +242,7 @@ public class MainActivity extends AppCompatActivity implements MyAsyncTask.commu
     }
 
 
+
     public void setViews(boolean isNew) {
         if (!isNew) {
             result.setText("$" + total);
